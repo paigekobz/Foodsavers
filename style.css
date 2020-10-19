@@ -1,0 +1,146 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Quicksand", helvetica, arial, sans-serif;
+  margin: 0em;
+  padding: 0px;
+  width: 100%;
+  background-color: black;
+}
+
+p {
+  margin-left: 24px;
+  font-family: "Quicksand", helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color:white;
+  font-size: 56px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 4px 12px;
+  display: inline-block;
+  margin-top: 15%;
+  font-family: "Kaushan Script";
+}
+
+h3 {
+  font-weight: bold;
+  color:white;
+  font-size: 24px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 4px 12px;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/*navigation*/
+.sidenav {
+  position: fixed; 
+  width: 240px; 
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  left: 0;
+  margin-top: 0px; 
+  padding: 12px;
+  z-index: 2;
+}
+
+.sidenav a { 
+  padding: 6px;
+  display: block;
+  color: #fefefe;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.sidenav p {
+  margin-top: 4px; 
+  margin-bottom: 4px;
+  font-weight: bold;
+  text-decoration: overline underline; 
+  color: #f4f4f4;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Kaushan Script', cursive;
+  margin: 4px 0px;
+}
+
+.sidenav a:hover {
+  color: #b2b2b2;
+}
+
+.email {
+  margin-left:26px;
+}
+
+/* Citrus-slide */
+.citrus-slide {
+  background-image: url("https://cdn.glitch.com/6e4b2e20-7aa8-441d-b60d-41040bfbcfca%2Fcitrus-img.jpg?1541893369365");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  height: 100vh;
+  margin-top: 45%;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-attachment: fixed;
+  
+  font-family: 'Kaushan Script', cursive;
+}
+
+.content {
+  width: calc(80%-24px); padding: 40px;
+}
+
+.stuff {
+  background-color: black;
+  color: black;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 280px;
+  padding: 40px;
+
+}
+
+.recipes{ background-color: #BEEB9F; padding: 40px;
+ 
+  padding: 12px;
+}
+
+.survey { background-color: #00A388; padding: 40px;
+ 
+
+}
+
+.petition { background-color: #BEEB9F; padding: 40px;
+ 
+}
+
+.map{ background-color: #FF6138; padding: 40px;
+ 
+
+}
+
+.linked-map {
+  padding: 48px;
+}
+
+.grocery-list { background-color: #00A388; padding: 40px;
+  
+}
+
+.intro{  background-color: #FFFF9D; padding: 40px;}
+
+
+.grocery-list ul{
+    margin-left: 24px;
+  padding-bottom: 24px;
+}
+body{background-color: black; padding: 0px;}
